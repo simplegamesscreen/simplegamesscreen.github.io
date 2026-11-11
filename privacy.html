@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>プライバシーポリシー｜実況！箱庭野球場</title>
+<!--
+  プライバシーポリシー（2026-10-24 作成）
+  2026-11-12：開発者名（Lab Play）・連絡先・制定日を埋めた（空欄なし）。
+  公開（GitHub Pages など）は本人が行う。公開した URL を Play Console の「アプリのコンテンツ → プライバシーポリシー」に入れる。
+  中身は scripts/store/ads.gd（AdMob）・scripts/store/unlock.gd（Google Play の課金）・SaveStore（端末内の保存）の実際の扱いに合わせてある（2026-10-30 に Godot 版と照合済み）。
+  広告や課金の仕組みを変えたら、ここも直すこと。
+-->
+<style>
+  :root {
+    --bg: #f7f7f4; --fg: #1d1d1f; --sub: #5b5b60; --line: #d9d9d4; --card: #ffffff; --accent: #12366b; --mark: #fff1b8;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg: #15171c; --fg: #ececee; --sub: #a5a7ad; --line: #33363e; --card: #1d2027; --accent: #8fb4ff; --mark: #5a4a12; }
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0; background: var(--bg); color: var(--fg);
+    font-family: system-ui, -apple-system, "Hiragino Sans", "Noto Sans JP", "Yu Gothic UI", Meiryo, sans-serif;
+    line-height: 1.8; font-size: 16px;
+  }
+  main { max-width: 760px; margin: 0 auto; padding: 32px 16px 64px; }
+  h1 { font-size: 1.5rem; margin: 0 0 4px; color: var(--accent); }
+  .app { color: var(--sub); margin: 0 0 24px; }
+  h2 { font-size: 1.1rem; margin: 32px 0 8px; padding-bottom: 4px; border-bottom: 1px solid var(--line); }
+  p, li { margin: 0 0 8px; }
+  ul { padding-left: 1.4em; margin: 0 0 8px; }
+  .box { background: var(--card); border: 1px solid var(--line); border-radius: 8px; padding: 12px 16px; margin: 8px 0 16px; }
+  a { color: var(--accent); word-break: break-all; }
+  .fill { background: var(--mark); padding: 0 4px; border-radius: 3px; }
+  footer { margin-top: 40px; color: var(--sub); font-size: .9rem; }
+</style>
+</head>
+<body>
+<main>
+  <h1>プライバシーポリシー</h1>
+  <p class="app">アプリ「実況！箱庭野球場」（Android アプリ名「箱球」）</p>
+
+  <p>Lab Play（以下「開発者」）は、スマートフォン向けアプリ「実況！箱庭野球場」（以下「本アプリ」）における利用者の情報の取り扱いを、次のとおり定めます。</p>
+
+  <div class="box">
+    <strong>要点</strong>
+    <ul>
+      <li>開発者は、氏名・メールアドレス・電話番号などの個人情報を集めていません。アカウント登録もありません。</li>
+      <li>試合やリーグのセーブデータは、利用者の端末の中だけに保存され、開発者には送られません。</li>
+      <li>無料版では Google の広告（AdMob）を表示します。広告のために、Google が広告ID などの情報を使います。</li>
+      <li>有料版の購入は Google Play の決済で行われ、カード番号などの支払い情報を開発者が受け取ることはありません。</li>
+    </ul>
+  </div>
+
+  <h2>1. 開発者が集める情報</h2>
+  <p>開発者は、本アプリを通じて利用者の個人情報を集めていません。また、開発者が運営するサーバーへ利用者の情報を送ることもありません（本アプリには、開発者のサーバーとやり取りする仕組みがありません）。</p>
+
+  <h2>2. 端末の中に保存する情報</h2>
+  <p>本アプリは、遊ぶために必要な次の情報を、利用者の端末の中（アプリ専用の保存領域）に保存します。</p>
+  <ul>
+    <li>リーグ戦・GMモードのセーブデータ、試合の記録</li>
+    <li>選手名鑑の編集内容</li>
+    <li>音量・画面・表示などの設定</li>
+    <li>有料版を購入済みかどうかの印</li>
+  </ul>
+  <p>これらは開発者には送られません。本アプリを削除すると消えます。利用者が「ファイルに書き出す」を使った場合は、利用者が選んだ場所にファイルが保存されます。</p>
+  <p>なお、Android の標準のバックアップ機能が有効になっている場合、これらのデータが利用者の Google アカウントのバックアップに含まれることがあります。これは Android（Google）の機能によるもので、開発者がその内容を見ることはできません。</p>
+
+  <h2>3. 広告（Google AdMob）</h2>
+  <p>無料版では、Google LLC が提供する広告配信サービス「Google AdMob」を使って、全画面の広告を表示します。有料版を購入すると広告は表示されません。</p>
+  <p>広告の配信・効果の測定・不正の防止のために、AdMob は次のような情報を自動的に取得し、利用することがあります。</p>
+  <ul>
+    <li>広告ID（Android の広告用の識別子）などの端末の識別子</li>
+    <li>IP アドレス（およそ地域の推定に使われることがあります）</li>
+    <li>端末の機種・OS・言語などの情報、アプリの情報</li>
+    <li>広告の表示やタップなどの操作の情報、動作の不具合の情報</li>
+  </ul>
+  <p>これらの情報は Google が取得・管理するもので、開発者が個人を特定できる形で受け取ることはありません。取り扱いの詳細は、Google のポリシーをご覧ください。</p>
+  <ul>
+    <li>Google のプライバシーポリシー：<a href="https://policies.google.com/privacy?hl=ja">https://policies.google.com/privacy?hl=ja</a></li>
+    <li>Google のパートナーのサイトやアプリでのデータの使い方：<a href="https://policies.google.com/technologies/partner-sites?hl=ja">https://policies.google.com/technologies/partner-sites?hl=ja</a></li>
+  </ul>
+  <p><strong>広告の個人向け設定を止めるには：</strong>端末の「設定」→「Google」→「広告」（機種により「プライバシー」→「広告」）から、広告IDの削除やリセットができます。欧州などの法律で同意が必要な地域の利用者には、本アプリの起動時に同意の画面が表示されます。</p>
+
+  <h2>4. アプリ内での購入（Google Play）</h2>
+  <p>有料版（買い切り）の購入は、Google Play の決済の仕組みで行われます。お支払いに使う情報（カード番号など）は Google が取り扱い、開発者が受け取ることはありません。</p>
+  <p>本アプリは、有料版を購入済みかどうかを確かめるために、端末の中で Google Play の購入の記録を参照します。購入の記録を開発者のサーバーに送ることはありません。Google Play での決済の取り扱いは、上記の Google のプライバシーポリシーと Google Play の利用規約によります。</p>
+  <p>開発者は Google Play Console を通じて、注文番号・購入日・金額・国などの売上の情報を見ることができます。これは返金や問い合わせへの対応、税務の処理のためだけに使います。</p>
+
+  <h2>5. 子どもの利用について</h2>
+  <p>本アプリは、13歳未満の子どもを主な対象としたものではありません。</p>
+
+  <h2>6. 情報の第三者への提供</h2>
+  <p>開発者は、利用者の個人情報を集めていないため、第三者に提供することはありません。広告と決済に関しては、上の3・4のとおり Google が情報を取り扱います。</p>
+
+  <h2>7. このポリシーの変更</h2>
+  <p>本アプリの機能の変更や法令の改正に合わせて、このポリシーを変更することがあります。大きな変更がある場合は、このページでお知らせします。</p>
+
+  <h2>8. お問い合わせ</h2>
+  <p>このポリシーや本アプリについてのお問い合わせは、次の連絡先までお願いします。</p>
+  <div class="box">
+    開発者：Lab Play<br>
+    メール：simplegamesscreen@gmail.com
+  </div>
+
+  <footer>
+    制定日：2026年11月12日
+  </footer>
+</main>
+</body>
+</html>
